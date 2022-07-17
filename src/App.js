@@ -16,7 +16,7 @@ function App() {
             <Route index element={<Home ></Home>} />
             <Route path="blogs" element={<Blogs ></Blogs>} />
             <Route path="contact" element={<Contact ></Contact>} />
-            <Route path="*" element={<NoPage ></NoPage>} />
+
           </Route>
         </Routes>
       </BrowserRouter>
